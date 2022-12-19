@@ -433,6 +433,18 @@ WEAPONS
 	cost = 4
 	available_against_xeno_only = TRUE
 
+	/datum/supply_packs/weapons/sniper/PMC_sniper
+	name = "SR-42 anti-tank sniper rifle kit"
+	contains = list(/obj/item/weapon/gun/rifle/sniper/elite)
+	cost = 80
+	available_against_xeno_only = TRUE
+
+	/datum/supply_packs/weapons/PMC_sniper_ammo
+	name = "SR-42 marksman magazine"
+	contains = list(/obj/item/ammo_magazine/sniper/elite)
+	cost = 5
+	available_against_xeno_only = TRUE
+
 /datum/supply_packs/weapons/specminigun
 	name = "MG-100 Vindicator Minigun"
 	contains = list(/obj/item/weapon/gun/minigun)

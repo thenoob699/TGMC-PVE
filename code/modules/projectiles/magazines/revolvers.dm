@@ -15,14 +15,20 @@
 /obj/item/ammo_magazine/revolver/marksman
 	name = "\improper R-44 marksman speed loader (.44)"
 	default_ammo = /datum/ammo/bullet/revolver/marksman
+	flags_equip_slot = NONE
 	caliber = CALIBER_44
 	icon_state = "m_m44"
+	w_class = WEIGHT_CLASS_SMALL
+	max_rounds = 7
 
 /obj/item/ammo_magazine/revolver/heavy
 	name = "\improper R-44 PW-MX speed loader (.44)"
 	default_ammo = /datum/ammo/bullet/revolver/heavy
+	flags_equip_slot = NONE
 	caliber = CALIBER_44
 	icon_state = "h_m44"
+	w_class = WEIGHT_CLASS_SMALL
+	max_rounds = 7
 
 /obj/item/ammo_magazine/revolver/standard_revolver
 	name = "\improper R-44 magnum speed loader (.44)"
